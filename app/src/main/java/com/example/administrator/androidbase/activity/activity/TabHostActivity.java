@@ -4,6 +4,7 @@ import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TabHost;
+import android.widget.Toast;
 
 import com.example.administrator.androidbase.R;
 import com.example.administrator.androidbase.activity.activity.tabhostactivity.AAcvtivity;
@@ -39,5 +40,11 @@ public class TabHostActivity extends TabActivity {
 		mTabHost.addTab(tabSpec);
 
 
+		initView();
+
+	}
+
+	private void initView() {
+		Toast.makeText(TabHostActivity.this,"Test",Toast.LENGTH_LONG).show();
 	}
 }
