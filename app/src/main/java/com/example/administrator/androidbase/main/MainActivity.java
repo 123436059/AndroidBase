@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.administrator.androidbase.R;
 import com.example.administrator.androidbase.main.activity.DownLoadActivity;
+import com.example.administrator.androidbase.main.activity.FrameActivity;
 import com.example.administrator.androidbase.main.activity.ListViewBottomActivity;
 import com.example.administrator.androidbase.main.activity.ListViewSeparatorActivity;
 import com.example.administrator.androidbase.main.activity.TabHostActivity;
@@ -28,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
 		});
 
 
-		findViewById(R.id.test_tabhost).setOnClickListener(new View.OnClickListener() {
+		findViewById(R.id.test_frame).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(MainActivity.this, TabHostActivity.class));
+				startActivity(new Intent(MainActivity.this, FrameActivity.class));
 			}
 		});
 

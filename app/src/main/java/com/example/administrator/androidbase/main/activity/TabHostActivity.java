@@ -65,6 +65,7 @@ public class TabHostActivity extends TabActivity implements View.OnClickListener
 			case 1:
 				mTabHost.setCurrentTabByTag(MOD2);
 				break;
+
 			case 2:
 				mTabHost.setCurrentTabByTag(MOD3);
 				break;

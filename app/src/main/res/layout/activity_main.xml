@@ -24,10 +24,10 @@
            />
 
        <Button
-           android:id="@+id/test_tabhost"
+           android:id="@+id/test_frame"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:text="testTabHost"
+           android:text="testAndroidFrame"
            />
 
        <Button

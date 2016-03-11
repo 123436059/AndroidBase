@@ -32,6 +32,8 @@
         <activity android:name=".main.activity.ListViewBottomActivity"/>
         <activity android:name=".main.activity.ListViewSeparatorActivity"/>
         <activity android:name=".main.activity.WindowManagerActivity"/>
+        <activity android:name=".main.activity.FrameActivity"/>
+        <activity android:name=".main.activity.TabFragmentActivity"/>
 
         <provider
             android:name=".main.download.DownloadProvider"
