@@ -30,5 +30,12 @@ public class FrameActivity extends Activity {
 			}
 		});
 
+		findViewById(R.id.btn_test_citie).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(FrameActivity.this,Win8TileActivity.class));
+			}
+		});
+
 	}
 }

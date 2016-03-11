@@ -34,6 +34,7 @@
         <activity android:name=".main.activity.WindowManagerActivity"/>
         <activity android:name=".main.activity.FrameActivity"/>
         <activity android:name=".main.activity.TabFragmentActivity"/>
+        <activity android:name=".main.activity.Win8TileActivity"/>
 
         <provider
             android:name=".main.download.DownloadProvider"

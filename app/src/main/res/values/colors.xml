@@ -5,4 +5,10 @@
     <color name="colorAccent">#FF4081</color>
     <color name="black">#000</color>
     <color name="green">#20FF20</color>
+    <color name="white">#fff</color>
+    
+    
+    <drawable name="top_drawable">#F3854B</drawable>
+    <drawable name="right_drawable">#2CB1BD</drawable>
+    <drawable name="bottom_drawable">#EE3859</drawable>
 </resources>
