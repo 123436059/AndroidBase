@@ -4,7 +4,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              tools:context="activity.ListViewSeparatorActivity">
+              tools:context="main.ListViewSeparatorActivity">
 
 
     <LinearLayout
@@ -34,7 +34,7 @@
 
     </LinearLayout>
 
-    <com.example.administrator.androidbase.activity.views.PullSeparateListView
+    <com.example.administrator.androidbase.main.views.PullSeparateListView
         android:id="@+id/pullSeparator"
         android:layout_width="match_parent"
         android:layout_height="300dp"/>

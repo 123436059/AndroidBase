@@ -1,4 +1,4 @@
-package com.example.administrator.androidbase.activity.download;
+package com.example.administrator.androidbase.main.download;
 
 /**
  * Created by Administrator on 2016/2/22.

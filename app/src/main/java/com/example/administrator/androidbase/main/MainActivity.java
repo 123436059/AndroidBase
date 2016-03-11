@@ -1,4 +1,4 @@
-package com.example.administrator.androidbase.activity;
+package com.example.administrator.androidbase.main;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.administrator.androidbase.R;
-import com.example.administrator.androidbase.activity.activity.DownLoadActivity;
-import com.example.administrator.androidbase.activity.activity.ListViewBottomActivity;
-import com.example.administrator.androidbase.activity.activity.ListViewSeparatorActivity;
-import com.example.administrator.androidbase.activity.activity.TabHostActivity;
-import com.example.administrator.androidbase.activity.activity.ViewsActivity;
-import com.example.administrator.androidbase.activity.activity.WindowManagerActivity;
+import com.example.administrator.androidbase.main.activity.DownLoadActivity;
+import com.example.administrator.androidbase.main.activity.ListViewBottomActivity;
+import com.example.administrator.androidbase.main.activity.ListViewSeparatorActivity;
+import com.example.administrator.androidbase.main.activity.TabHostActivity;
+import com.example.administrator.androidbase.main.activity.ViewsActivity;
+import com.example.administrator.androidbase.main.activity.WindowManagerActivity;
 
 public class MainActivity extends AppCompatActivity {
 

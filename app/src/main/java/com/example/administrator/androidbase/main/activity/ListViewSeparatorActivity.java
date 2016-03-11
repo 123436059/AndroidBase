@@ -1,4 +1,4 @@
-package com.example.administrator.androidbase.activity.activity;
+package com.example.administrator.androidbase.main.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 
 import com.example.administrator.androidbase.R;
-import com.example.administrator.androidbase.activity.views.PullSeparateListView;
+import com.example.administrator.androidbase.main.views.PullSeparateListView;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,9 @@
-package com.example.administrator.androidbase.activity.views;
+package com.example.administrator.androidbase.main.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.BitmapDrawable;
 import android.util.AttributeSet;
-import android.view.GestureDetector;
-import android.view.GestureDetector.OnGestureListener;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;

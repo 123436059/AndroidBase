@@ -1,4 +1,4 @@
-package com.example.administrator.androidbase.activity.activity.tabhostactivity;
+package com.example.administrator.androidbase.main.activity.tabhostactivity;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -20,21 +20,21 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.activity.DownLoadActivity"/>
+        <activity android:name=".main.activity.DownLoadActivity"/>
 
-        <activity android:name=".activity.activity.TabHostActivity"/>
+        <activity android:name=".main.activity.TabHostActivity"/>
 
-        <activity android:name=".activity.activity.tabhostactivity.AAcvtivity"/>
-        <activity android:name=".activity.activity.tabhostactivity.BActivity"/>
-        <activity android:name=".activity.activity.tabhostactivity.CActivity"/>
-        <activity android:name=".activity.activity.ViewsActivity"/>
-        <activity android:name=".activity.activity.ListViewMaxActivity"/>
-        <activity android:name=".activity.activity.ListViewBottomActivity"/>
-        <activity android:name=".activity.activity.ListViewSeparatorActivity"/>
-        <activity android:name=".activity.activity.WindowManagerActivity"/>
+        <activity android:name=".main.activity.tabhostactivity.AAcvtivity"/>
+        <activity android:name=".main.activity.tabhostactivity.BActivity"/>
+        <activity android:name=".main.activity.tabhostactivity.CActivity"/>
+        <activity android:name=".main.activity.ViewsActivity"/>
+        <activity android:name=".main.activity.ListViewMaxActivity"/>
+        <activity android:name=".main.activity.ListViewBottomActivity"/>
+        <activity android:name=".main.activity.ListViewSeparatorActivity"/>
+        <activity android:name=".main.activity.WindowManagerActivity"/>
 
         <provider
-            android:name=".activity.download.DownloadProvider"
+            android:name=".main.download.DownloadProvider"
             android:authorities="www.xxx.com"
             />
     </application>

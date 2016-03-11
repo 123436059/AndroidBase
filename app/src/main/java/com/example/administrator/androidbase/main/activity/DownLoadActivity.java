@@ -1,4 +1,4 @@
-package com.example.administrator.androidbase.activity.activity;
+package com.example.administrator.androidbase.main.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.administrator.androidbase.R;
-import com.example.administrator.androidbase.activity.download.DownLoadEngine;
-import com.example.administrator.androidbase.activity.download.DownLoadManager;
+import com.example.administrator.androidbase.main.download.DownLoadEngine;
+import com.example.administrator.androidbase.main.download.DownLoadManager;
 
 public class DownLoadActivity extends Activity {
 	private EditText et_url;

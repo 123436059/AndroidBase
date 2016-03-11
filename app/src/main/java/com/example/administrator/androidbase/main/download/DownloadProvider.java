@@ -1,4 +1,4 @@
-package com.example.administrator.androidbase.activity.download;
+package com.example.administrator.androidbase.main.download;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
-import com.example.administrator.androidbase.activity.db.DownloadDBHelper;
+import com.example.administrator.androidbase.main.db.DownloadDBHelper;
 
 /**
  * Created by Administrator on 2016/2/23.

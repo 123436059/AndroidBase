@@ -1,7 +1,6 @@
-package com.example.administrator.androidbase.activity.download;
+package com.example.administrator.androidbase.main.download;
 
 import android.content.Context;
-import android.util.Log;
 
 import java.io.RandomAccessFile;
 import java.net.HttpURLConnection;

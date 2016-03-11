@@ -1,4 +1,4 @@
-package com.example.administrator.androidbase.activity.activity;
+package com.example.administrator.androidbase.main.activity;
 
 import android.app.Activity;
 import android.os.Bundle;

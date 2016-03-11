@@ -1,4 +1,4 @@
-package com.example.administrator.androidbase.activity.activity;
+package com.example.administrator.androidbase.main.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import com.example.administrator.androidbase.R;

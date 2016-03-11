@@ -1,10 +1,10 @@
-package com.example.administrator.androidbase.activity.db;
+package com.example.administrator.androidbase.main.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.administrator.androidbase.activity.download.DownLoadEngine;
+import com.example.administrator.androidbase.main.download.DownLoadEngine;
 
 /**
  * Created by Administrator on 2016/2/23.
