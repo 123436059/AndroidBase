@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="com.example.administrator.androidbase"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.androidbase">
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
@@ -14,32 +14,33 @@
         android:theme="@style/AppTheme">
         <activity android:name=".main.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".main.activity.DownLoadActivity"/>
+        <activity android:name=".main.activity.DownLoadActivity" />
 
-        <activity android:name=".main.activity.TabHostActivity"/>
+        <activity android:name=".main.activity.TabHostActivity" />
 
-        <activity android:name=".main.activity.tabhostactivity.AAcvtivity"/>
-        <activity android:name=".main.activity.tabhostactivity.BActivity"/>
-        <activity android:name=".main.activity.tabhostactivity.CActivity"/>
-        <activity android:name=".main.activity.ViewsActivity"/>
-        <activity android:name=".main.activity.ListViewMaxActivity"/>
-        <activity android:name=".main.activity.ListViewBottomActivity"/>
-        <activity android:name=".main.activity.ListViewSeparatorActivity"/>
-        <activity android:name=".main.activity.WindowManagerActivity"/>
-        <activity android:name=".main.activity.FrameActivity"/>
-        <activity android:name=".main.activity.TabFragmentActivity"/>
-        <activity android:name=".main.activity.Win8TileActivity"/>
+        <activity android:name=".main.activity.tabhostactivity.AAcvtivity" />
+        <activity android:name=".main.activity.tabhostactivity.BActivity" />
+        <activity android:name=".main.activity.tabhostactivity.CActivity" />
+        <activity android:name=".main.activity.ViewsActivity" />
+        <activity android:name=".main.activity.ListViewMaxActivity" />
+        <activity android:name=".main.activity.ListViewBottomActivity" />
+        <activity android:name=".main.activity.ListViewSeparatorActivity" />
+        <activity android:name=".main.activity.WindowManagerActivity" />
+        <activity android:name=".main.activity.FrameActivity" />
+        <activity android:name=".main.activity.TabFragmentActivity" />
+        <activity android:name=".main.activity.Win8TileActivity" />
+        <activity android:name=".main.activity.AnimationMainActivity" />
+        <activity android:name=".main.activity.BaseAnimaionActiviy" />
 
         <provider
             android:name=".main.download.DownloadProvider"
-            android:authorities="www.xxx.com"
-            />
+            android:authorities="www.xxx.com" />
     </application>
 
 </manifest>

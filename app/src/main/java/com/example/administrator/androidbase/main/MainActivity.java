@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.administrator.androidbase.R;
+import com.example.administrator.androidbase.main.activity.AnimationMainActivity;
+import com.example.administrator.androidbase.main.activity.BaseAnimaionActiviy;
 import com.example.administrator.androidbase.main.activity.DownLoadActivity;
 import com.example.administrator.androidbase.main.activity.FrameActivity;
 import com.example.administrator.androidbase.main.activity.ListViewBottomActivity;
@@ -62,6 +64,13 @@ public class MainActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View v) {
 				startActivity(new Intent(MainActivity.this, WindowManagerActivity.class));
+			}
+		});
+
+		findViewById(R.id.btn_test_animation).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, AnimationMainActivity.class));
 			}
 		});
 	}
