@@ -9,7 +9,15 @@
         android:id="@+id/btn_mpp3_service"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TestBaseMp3"
+        android:text="绑定服务"
         />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停"
+        />
+
 
 </LinearLayout>
