@@ -37,6 +37,7 @@ public class TestBaseMp3Activity extends Activity implements View.OnClickListene
             myInter = null;
         }
     };
+    private Intent service;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +49,7 @@ public class TestBaseMp3Activity extends Activity implements View.OnClickListene
 
 
     private void initService() {
-        Intent service = new Intent(mContext, BaseMp3Service.class);
+        service = new Intent(mContext, BaseMp3Service.class);
         startService(service);
         bindService(service, mServiceConnection, Context.BIND_AUTO_CREATE);
     }
@@ -86,5 +87,6 @@ public class TestBaseMp3Activity extends Activity implements View.OnClickListene
     protected void onDestroy() {
         super.onDestroy();
         unbindService(mServiceConnection);
+        stopService(service);
     }
 }
