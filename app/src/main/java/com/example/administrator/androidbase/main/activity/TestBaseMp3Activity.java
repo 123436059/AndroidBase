@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -62,7 +63,6 @@ public class TestBaseMp3Activity extends Activity implements View.OnClickListene
 
     @Override
     public void onClick(View v) {
-
         switch (v.getId()) {
             case R.id.btn_mpp3_service:
                 initService();
@@ -88,5 +88,6 @@ public class TestBaseMp3Activity extends Activity implements View.OnClickListene
         super.onDestroy();
         unbindService(mServiceConnection);
         stopService(service);
+        Log.d("taxi","onDestroy");
     }
 }
