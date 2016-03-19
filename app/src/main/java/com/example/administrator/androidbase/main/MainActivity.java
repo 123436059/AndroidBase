@@ -13,6 +13,7 @@ import com.example.administrator.androidbase.main.activity.FrameActivity;
 import com.example.administrator.androidbase.main.activity.ListViewBottomActivity;
 import com.example.administrator.androidbase.main.activity.ListViewSeparatorActivity;
 import com.example.administrator.androidbase.main.activity.TabHostActivity;
+import com.example.administrator.androidbase.main.activity.TestDialogActivity;
 import com.example.administrator.androidbase.main.activity.TestServiceActvitiy;
 import com.example.administrator.androidbase.main.activity.ViewsActivity;
 import com.example.administrator.androidbase.main.activity.WindowManagerActivity;
@@ -79,6 +80,13 @@ public class MainActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View v) {
 				startActivity(new Intent(MainActivity.this, TestServiceActvitiy.class));
+			}
+		});
+
+		findViewById(R.id.btn_test_dialog).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, TestDialogActivity.class));
 			}
 		});
 	}
