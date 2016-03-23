@@ -39,6 +39,7 @@
         <activity android:name=".main.activity.TestServiceActvitiy" />
         <activity android:name=".main.activity.TestBaseMp3Activity" />
         <activity android:name=".main.activity.TestDialogActivity"/>
+        <activity android:name=".main.activity.TestEdittextActivity"/>
 
         <service android:name=".main.service.BaseMp3Service" />
 

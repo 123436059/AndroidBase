@@ -24,5 +24,12 @@ public class ViewsActivity extends Activity {
 			}
 		});
 
+		findViewById(R.id.btn_test_edit).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(ViewsActivity.this,TestEdittextActivity.class));
+			}
+		});
+
 	}
 }
