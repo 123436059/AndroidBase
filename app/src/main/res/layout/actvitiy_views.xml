@@ -20,4 +20,11 @@
         android:text="测试编辑栏"
         />
 
+    <Button
+        android:id="@+id/btn_test_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试菜单"
+        />
+
 </LinearLayout>

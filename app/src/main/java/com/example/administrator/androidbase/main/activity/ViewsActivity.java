@@ -31,5 +31,12 @@ public class ViewsActivity extends Activity {
 			}
 		});
 
+		findViewById(R.id.btn_test_menu).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(ViewsActivity.this,TestMenu.class));
+			}
+		});
+
 	}
 }
