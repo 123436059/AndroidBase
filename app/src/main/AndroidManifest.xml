@@ -41,6 +41,10 @@
         <activity android:name=".main.activity.TestDialogActivity"/>
         <activity android:name=".main.activity.TestEdittextActivity"/>
         <activity android:name=".main.activity.TestMenu"/>
+        <activity android:name=".main.activity.TestInterBaseActivity"/>
+        <activity android:name=".main.activity.TestInterFaceActivity"/>
+        <activity android:name=".main.activity.interActivity.InterAactivity"/>
+        <activity android:name=".main.activity.interActivity.InterBactivity"/>
 
         <service android:name=".main.service.BaseMp3Service" />
 

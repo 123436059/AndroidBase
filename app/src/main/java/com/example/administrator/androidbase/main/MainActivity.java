@@ -14,6 +14,7 @@ import com.example.administrator.androidbase.main.activity.ListViewBottomActivit
 import com.example.administrator.androidbase.main.activity.ListViewSeparatorActivity;
 import com.example.administrator.androidbase.main.activity.TabHostActivity;
 import com.example.administrator.androidbase.main.activity.TestDialogActivity;
+import com.example.administrator.androidbase.main.activity.TestInterFaceActivity;
 import com.example.administrator.androidbase.main.activity.TestServiceActvitiy;
 import com.example.administrator.androidbase.main.activity.ViewsActivity;
 import com.example.administrator.androidbase.main.activity.WindowManagerActivity;
@@ -87,6 +88,13 @@ public class MainActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View v) {
 				startActivity(new Intent(MainActivity.this, TestDialogActivity.class));
+			}
+		});
+
+		findViewById(R.id.btn_inter).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, TestInterFaceActivity.class));
 			}
 		});
 	}
